@@ -33,7 +33,7 @@ Timespans are expressed as a decimal followed by a time unit:
 |s           | second       |
 |ms          | millisecond  |
 |microsecond | microsecond  |
-|tick        | nanosecond   |
+|tick        | 100 nanosecond   |
 
 Datetimes can be created by casting a string using the `todatetime` operator. For example, to review the VM heartbeats sent in a specific timeframe, use the `between` operator to specify a time range.
 
